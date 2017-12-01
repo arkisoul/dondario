@@ -1,0 +1,214 @@
+@media only screen and (max-width: 767px) {
+  .headimg_innersec > h1 {
+    font-size: 36px;
+    margin: 10px auto;
+  }
+
+  .headimg_innersec > h3 {
+    line-height: 30px;
+  }
+
+  .head_borderbtm {
+    margin: 0 auto 15px;
+  }
+
+  .head_para > p {
+    font-size: 24px;
+    line-height: 30px;
+  }
+
+  #home-sec .next_sec > img {
+    margin-top: 20px;
+  }
+
+  .product_imgsec > img {
+    margin: auto;
+  }
+
+  .prod_inner_container {
+    margin: 20px 32px auto;
+  }
+
+  .product_innerwrap {
+    text-align: center;
+  }
+
+  .product_heading > h3 {
+    font-size: 20px;
+  }
+
+  .product_text {
+    margin-top: 10px;
+  }
+
+  .product_text > p, .txt-yelw {
+    font-size: 18px;
+  }
+
+  .tdquant-text, .tdquant-text > span, .price-sec {
+    font-size: 14px;
+  }
+
+  .text-blk {
+    font-size: 20px;
+  }
+
+  .quantity_sec {
+    margin: 20px auto 30px;
+  }
+
+  .heading_delsec > h3 {
+    font-size: 20px;
+  }
+
+  .order_heading > h3 {
+    font-size: 20px;
+  }
+
+  .ordersuc_text > h2 {
+    font-size: 34px;
+  }
+
+  .ordersuc_text > p {
+    font-size: 20px;
+  }
+
+  .ordersuc_text {
+    padding: 100px 32px 0px;
+  }
+
+  .order_inner_container {
+    margin: auto 32px 30px;
+  }
+
+  .del_inner_container {
+    width: 86%;
+  }
+
+  .tb-head {
+    font-size: 18px;
+  }
+
+  #delivery_information {
+    padding-bottom: 30px;
+  }
+
+  .grand-sec {
+    font-size: 18px;
+  }
+
+  .foot-text > p {
+    font-size: 14px;
+  }
+
+  /* Force table to not be like tables anymore */
+  .tb-sec {
+    width: 100%;
+  }
+  .tb-sec table, .tb-sec thead, .tb-sec tbody, .tb-sec tfoot, .tb-sec th, .tb-sec td, .tb-sec tr {
+    display: block;
+  }
+
+  /* Hide table headers (but not display: none;, for accessibility) */
+  thead tr {
+    position: absolute;
+    top: -9999px;
+    left: -9999px;
+  }
+
+  tr { border: 1px solid #cb9827; }
+
+  td {
+    /* Behave  like a "row" */
+    border: none;
+    position: relative;
+    padding-left: 50%;
+    text-align: left;
+  }
+
+  .tb-sec>tbody>tr>td, .tb-sec>tbody>tr>th, .tb-sec>tfoot>tr>td, .tb-sec>tfoot>tr>th, .tb-sec>thead>tr>td, .tb-sec>thead>tr>th {
+    padding-left: 50%;
+  }
+
+  .tb-sec tbody tr td:first-child > img {
+    margin: 5px 0px 3px;
+  }
+
+  .tb-sec thead tr th:first-child, .tb-sec tbody tr td:first-child {
+    text-align: left;
+    width: 100%;
+  }
+
+  .tb-sec thead tr th:not(:first-child),
+  .tb-sec tbody tr td:not(:first-child) {
+    text-align: left;
+    margin: 2px 0px 5px;
+  }
+
+  .tb-sec thead tr th:nth-child(2), .tb-sec tbody tr td:nth-child(2) {
+    width: auto;
+  }
+
+  .txt-no, .ship-prixe, .grand-price {
+    border: none;
+  }
+
+  .quantity_sec1 {
+    margin: auto 0px;
+  }
+
+  td::before {
+    position: absolute;
+    top: 25%;
+    left: 7px;
+    width: 25%;
+    white-space: nowrap;
+    content: attr(data-th);
+    font-weight: 600;
+    color: #010101;
+    text-align: left;
+    font-size: 16px;
+    font-family: futurabt-book;
+  }
+
+  .tb-sec > tfoot > tr > td:not(:last-child) {
+    display: none;
+  }
+
+  .tb-sec > tfoot > tr > td:last-child {
+    text-align: left;
+    font-size: 16px;
+  }
+
+  .tb-sec > tfoot > tr > td::before {
+    position: absolute;
+    top: 25%;
+    left: 7px;
+    width: 25%;
+    white-space: nowrap;
+    content: attr(data-th);
+    font-weight: 600;
+    color: #fff;
+    text-align: left;
+    font-size: 14px;
+    font-family: futurabt-book;
+  }
+
+  .tb-sec > tfoot > tr > td.txt-no::before {
+    font-family: cocogoose;
+    color: #010101;
+  }
+
+  .tb-sec > tfoot > tr > td.ship-prixe::before {
+    font-family: cocogoose;
+    color: #cb9827;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .quantity_sec1 {
+    margin: auto 0px 3px;
+    width: 125px;
+    min-width: 120px;
+  }
+}
